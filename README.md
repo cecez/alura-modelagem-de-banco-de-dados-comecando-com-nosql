@@ -12,3 +12,12 @@ Instalação de Docker com MongoDB para executar comandos
 $ docker run --name alura-mongodb -p 27017:27017 -d mongo:4.4
 
 ```
+
+```
+# no Docker conectar no CLI do container e executar os comandos abaixo para
+# criar database "empresa" e coleção "funcionario":
+
+$ mongo
+$ use empresa
+$ db.funcionario.insertOne({x:1}) 
+```

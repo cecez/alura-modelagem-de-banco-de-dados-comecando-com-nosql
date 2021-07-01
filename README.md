@@ -21,3 +21,13 @@ $ mongo
 $ use empresa
 $ db.funcionario.insertOne({x:1}) 
 ```
+
+```
+$ mongo
+
+# exibir dados
+$ db.funcionario.find()
+
+# incluir mais de um documento
+$ db.funcionario.insertMany([{..}, {..}, {..}]) 
+```
